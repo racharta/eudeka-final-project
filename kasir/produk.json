@@ -1,0 +1,42 @@
+{
+    "es teh manis": {
+        "harga": 2000,
+        "stok": 50
+    },
+    "jus jeruk": {
+        "harga": 6000,
+        "stok": 50
+    },
+    "seblak": {
+        "harga": 3000,
+        "stok": 30
+    },
+    "nasi": {
+        "harga": 4000,
+        "stok": 45
+    },
+    "coto makasar": {
+        "harga": 7000,
+        "stok": 15
+    },
+    "ayam goreng": {
+        "harga": 10000,
+        "stok": 20
+    },
+    "ayam bakar": {
+        "harga": 10000,
+        "stok": 20
+    },
+    "nasi padang": {
+        "harga": 13000,
+        "stok": 20
+    },
+    "puding": {
+        "harga": 3000,
+        "stok": 30
+    },
+    "steak wagyu A5": {
+        "harga": 4000000,
+        "stok": 0
+    }
+}

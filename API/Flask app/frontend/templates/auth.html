@@ -1,0 +1,17 @@
+{% include 'header.html' %}
+	{% include 'popUp.html' %}
+
+		<div class="card container align-middle justify-content-center placeholder" style="max-width: 400px; max-height: 720px;">
+			<img  class="img-fluid card-img-top" src="/static/img/vector.png"  alt="vector">
+			<form action="{{action}}" class="card-body" method="POST" id="{{action}}form">
+				{%for i in range(0, len)%}
+					<div class="form-group">
+						<label for="input{{data[i]}}">{{data[i].title()}}</label>
+						<input name="{{data[i]}}" type="{{data[i]}}" class="form-control" value="{{ request.form[data[i]] }}" required>
+					</div>
+				{%endfor%}
+				<button type='submit' class="form-group btn btn-primary" style="margin-top: 20px;">Submit</button>
+			</form>
+		</div>
+
+{% include 'footer.html' %}
